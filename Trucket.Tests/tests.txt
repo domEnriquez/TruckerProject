@@ -1,0 +1,88 @@
+To Do:
+Remove duplication in repository
+UI Tests: Prevent user from typing in combo box
+maintRepo: Delete maintenance but no storage file
+update ccb on form load - check
+delete truck, delete all truck items in every table
+show chosen items in ccb in textbox 
+
+Done:
+AddTrip: storage file does not exists
+AddTrip: null trip
+AddTrip: all fields are required
+AddTrip: validate date time format (MM/dd/yyyy)
+AddTrip: Direct cost must be number only
+AddTrip: Rate must be number only
+AddTrip: Trip ID is incrementing
+AddTrip: fields tab order (manual test)
+AddTrip: Show message box in UI when exception happens (manual test)
+GetTrip: When no trip is found, return null
+GetTrip: No storage file exists
+GetAllTrips: No storage file exists
+GetAllTrips: no trip found, return empty collection
+GetAllTrips: Return all trips
+GetTripByTruckNo: No storage file exists
+GetTripByTruckNo: Empty or null truck number is given
+GetTripByTruckNo: When no trips found, return empty collection
+GetTripByTruckNo: Specific truck number is given
+UI tests: Populate client combo box
+UI Tests: Click get trip tab, populate data trip table with all trips
+UI Tests: Click get trip tab, populate truck no combo box
+UI Tests: Click get trip tab many times, clear combo box first then populate
+UI Tests: Show message box after adding trip
+UI Tests: get trip page, filter by truck no, populate trip table considering the filtered value
+Filter Combinations: All Truck, One Client
+Filter Combinations: All Truck, All Client
+Filter Combinations: One Truck, All Client
+Filter Combinations: One Truck, One Client
+Get Trips with filter: Filter button clicked but there are no trips, table remains empty
+Income Statement: Revenue
+Income Statement: Direct Cost
+Income Statement: Gross Profit
+Delete trip: Delete single trip
+Delete trip: Delete non-existing trip data
+Add Maintenance Repo: Null maintenance, throw error
+Add Maintenance Repo: No existing file, throw error
+Add Maintenance Repo: Valid maintenance object, add to storage file
+Add Maintenance Repo: Auto increment maintenance Id
+Add Maintenance UI: Empty Truck No, throw error - check
+Add Maintenance UI: empty date, throw error - check
+Add Maintenance UI: Empty maintenance type, throw error - check
+Add Maintenance UI: Empty cost, throw error - check
+Add Maintenance UI: Invalid date format, throw error - check 
+Add Maintenance UI: Maintenance cost not a number, throw error - check
+Add Maintenance UI Tests: Add maintenance with valid fields - check
+Get Maintenance Repo: Get All Maintenances - check
+Get Maintenance Repo: Get All Maintenances but no storage file - check
+Get Maintenance UI: Populate truck no combo box - check
+Remove duplication in populating data grid
+Remove duplication in viewmodel validations
+Income Statement: Show Total Maintenance
+Income Statement: Show net income
+Net income per truck: Truck IDs only from Trip Repo
+Net income per truck: Truck IDs only from Maintenance Repo
+Net income per truck: Truck IDs from Trip and Maintenance Repo
+Filter net income per truck
+Empty add trip/add maintenance fields after adding
+maintRepo: Delete maintenance
+maintRepo: Delete maintenance but no existing maintenance with the given ID
+add truck - check
+get truck - check
+When add truck, then update all truck no combo boxes - check
+When form loads populate all combo boxes - check
+When add trip, then populate client combo box - check
+Combo box for truck no - populate with available truck nos - check
+add truck, clear all text boxes - check
+Transfer all name strings to constants
+add new truck, update ccb
+delete truck
+delete truck, update ccb
+check "All" in ccb, check all items
+uncheck "All" in ccb, uncheck all items
+upon form load, check "all" in ccb and show net income of all
+Check multi items in ccb, click filter, show income statement of checked items - check
+Check all in ccb, check all truck nos, click filter, show income statment of all - check 
+uncheck all in ccb, uncheck all truck nos, click filter, show all 0 in income statement - check
+delete truck, repopulate truck no combo boxes - check
+Add new truck, update truck no combo box - check
+update truck no combo boxes upon form load - check
